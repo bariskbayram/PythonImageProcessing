@@ -9,7 +9,7 @@ X = np.stack((x,y),axis=0)
 X
 sigma_1=np.cov(x)
 sigma_1
-
+ 
 def generate_data():
     x=[180,170,170,175,181,175,177,185,179,160]
     y=[95,70,60,79,60,63,83,80,75,50]
