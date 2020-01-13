@@ -35,7 +35,7 @@ def compute_loss(Y, Y_hat): #gerçek çıktı, benim ürettiğim çıktı iki ve
     L = -(1./m) * ( np.sum( np.multiply(np.log(Y_hat),Y) ) + np.sum( np.multiply(np.log(1-Y_hat),(1-Y)) ) )
 
     return L
-
+ 
 learning_rate = 1
 
 X = X_train
