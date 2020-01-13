@@ -10,7 +10,7 @@ plt.show()
 m,n = im_2.shape
 
 im_3 = im_1[:,:,0]   #im_1 gerçek foto , im_2 işlenen foto, im_3 filtre uygulanacak foto
-im_3= np.zeros((341,306),dtype=float)  #normalde dtype=np.uint8
+im_3= np.zeros((341,306),dtype=float)  #normalde  dtype=np.uint8
 
 for i in range(1,m-1):
     for j in range(1,n-1):
