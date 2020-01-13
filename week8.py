@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-
+ 
 im_1 = plt.imread('ITCrowd.png')
 plt.imshow(im_1)
 plt.show()
