@@ -3,7 +3,7 @@ import random
 v_1 = [1, 3]
 v_2 = [2, -3]
 print(v_1, v_2)
-
+ 
 print(v_1 + v_2)  # iki vektörü birleştiriyor ( [1, 3, 2, -3] )
 
 
