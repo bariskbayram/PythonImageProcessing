@@ -32,7 +32,7 @@ image3 = RGBPlus(image2)
 plt.imshow(image3)
 plt.show()
 
-#Fotoğrafın pixellerini 1/4 oranında küçültme
+#Fotoğrafın pixellerini 1/4  oranında küçültme
 def pixelOneToFour1 (image):
     m, n, p = image.shape
     new_m = int(m/2)
