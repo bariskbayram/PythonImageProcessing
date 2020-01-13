@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-
+ 
 data_path ="/home/bariskbayram/Masaüstü/PythonIP"
 #train_data = np.loadtxt(data_path + "/mnist_train.csv", delimiter=",")
 test_data = np.loadtxt(data_path + "/mnist_test.csv", delimiter=",")
