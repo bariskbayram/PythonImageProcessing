@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-
+ 
 myList=[2,4,3,4,5,6,3,3,2,1]
 def calculatingMeanAndVaryans (myList=[2,4,3,4,5,6,3,3,2,1]):
     t = 0
