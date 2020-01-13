@@ -1,4 +1,4 @@
-# Ortalama ve Varyans, pdf değeri
+ # Ortalama ve Varyans, pdf değeri
 import matplotlib.pyplot as plt
 import numpy as np
 
