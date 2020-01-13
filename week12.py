@@ -2,7 +2,7 @@ import numpy as np
 import matlotlib.pyplot as plt
 import mnist
 from conv import Conv3x3
-
+ 
 image = plt.imread('ITCrowd.png')
 
 def __init__(self, num_filters):
