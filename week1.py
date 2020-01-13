@@ -27,7 +27,7 @@ plt.show()
 plt.imsave('ITCrowdGray.png', new_image, cmap='gray')
 
 
-#Transpoze için m ve n değişkenlerinin yeri değişir.
+#Transpoze için m ve n değişkenlerinin yeri değişir..
 
 transpoze_image = np.zeros((n, m), dtype=float)
 
